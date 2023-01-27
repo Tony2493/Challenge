@@ -1,0 +1,118 @@
+*{
+    background: linear-gradient(lightblue,blue);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;    
+    
+}
+
+.logo{     
+    padding-top: 10px;
+    display: flex;
+    margin-left: 15px;
+    width: 4%;    
+    background: transparent;   
+           
+}
+
+.Encriptador{
+  color:whitesmoke;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;    
+  content:"★";
+  width: 100%;
+  
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border:none;
+    color: white;
+    font-weight: bold;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{ color: whitesmoke; }
+  .text-area:focus {
+    outline:none;
+  }
+
+  .mensaje{
+    background: linear-gradient(lightblue, blue);
+    background-image: url("Muñeco.jpg");    
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    font-weight: bold;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+  }
+  .mensaje:focus{
+    outline: none;
+  }
+
+  .botones{
+    display: flex;
+    margin-top: 18px;
+    border-bottom: none;
+    outline: none;    
+  }
+
+  .btn-desencriptar{
+    background: rgb(217, 233, 240);
+    border: 1px solid lightgreen;
+    border-radius: 24px;
+    color:blue;
+    cursor:pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;  
+  }
+
+  .btn-encriptar{
+    background-color: yellowgreen;
+    border: 1px solid lightskyblue;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;    
+  }    
+
+  .copiar{
+    border: 1px solid lightblue;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+  }
+
+.Informacion{
+    color:black;
+    content: "★";
+    font-weight: bold;
+    font-size: 15px;   
+          
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: black ;
+    padding: 40px;           
+}
